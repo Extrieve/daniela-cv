@@ -1,0 +1,495 @@
+# Portal Scanner — Daniela Ciñera
+# Target: Lima, Perú — Entry-level / Junior roles in data, analytics, systems, IT, business admin
+
+title_filter:
+  positive:
+    # -- Data & Analytics --
+    - "Analista de Datos"
+    - "Data Analyst"
+    - "Business Analyst"
+    - "Business Analytics"
+    - "Analista de Negocio"
+    - "Analista BI"
+    - "Business Intelligence"
+    - "Analista de Reportes"
+    - "Reporting Analyst"
+    - "Data Entry"
+    - "Analista de Información"
+    - "Analista de Inteligencia"
+    # -- Systems & IT --
+    - "Analista de Sistemas"
+    - "Systems Analyst"
+    - "Analista de TI"
+    - "IT Analyst"
+    - "Analista Funcional"
+    - "Analista Programador"
+    - "Soporte TI"
+    - "Analista de Procesos"
+    - "Process Analyst"
+    - "Coordinador de Datos"
+    - "Coordinador TI"
+    - "Coordinador Tecnológico"
+    - "Analista de Calidad"
+    - "QA Analyst"
+    # -- Business Admin & Operations --
+    - "Administrador de Empresas"
+    - "Asistente Administrativo"
+    - "Coordinador Administrativo"
+    - "Analista Administrativo"
+    - "Asistente de Operaciones"
+    - "Analista de Operaciones"
+    - "Operations Analyst"
+    - "Coordinador de Operaciones"
+    - "Asistente de Gestión"
+    - "Analista de Gestión"
+    - "Back Office"
+    - "Asistente de Proyectos"
+    - "Analista de Proyectos"
+    - "PMO"
+    - "Asistente de Gerencia"
+    - "Auxiliar Administrativo"
+    # -- Commercial & Finance --
+    - "Analista Comercial"
+    - "Asistente Comercial"
+    - "Analista de Planeamiento"
+    - "Analista de Control de Gestión"
+    - "Analista Financiero"
+    - "Asistente Financiero"
+    - "Analista de Costos"
+    - "Analista de Presupuesto"
+    - "Analista de Riesgos"
+    # -- Entry-level explicit --
+    - "Practicante"
+    - "Trainee"
+    - "Auxiliar"
+  negative:
+    - "Gerente General"
+    - "Country Manager"
+    - "Senior Manager"
+    - "Director General"
+    - "Director de"
+    - "Jefe de"
+    - "Head of"
+    - "VP "
+    - "Chief "
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Mainframe"
+    - "COBOL"
+    - "SAP MM"
+    - "Oracle EBS"
+    - "Obrero"
+    - "Operario"
+    - "Técnico en Redes"
+  seniority_boost:
+    - "Junior"
+    - "Trainee"
+    - "Practicante"
+    - "Entry Level"
+    - "Recién Egresado"
+    - "Recién Egresada"
+    - "Asistente"
+    - "Auxiliar"
+
+search_queries:
+
+  # ── LinkedIn ──────────────────────────────────────────────────────────────
+  - name: LinkedIn — Analista de Datos Lima
+    query: "site:linkedin.com/jobs \"Analista de Datos\" OR \"Data Analyst\" Lima Perú junior OR egresado"
+    enabled: true
+
+  - name: LinkedIn — Business Analyst Lima
+    query: "site:linkedin.com/jobs \"Business Analyst\" OR \"Analista de Negocio\" Lima Perú junior"
+    enabled: true
+
+  - name: LinkedIn — Analista de Sistemas Lima
+    query: "site:linkedin.com/jobs \"Analista de Sistemas\" OR \"Systems Analyst\" Lima Perú junior OR egresado"
+    enabled: true
+
+  - name: LinkedIn — BI y Reportes Lima
+    query: "site:linkedin.com/jobs \"Analista BI\" OR \"Business Intelligence\" OR \"Analista de Reportes\" Lima Perú"
+    enabled: true
+
+  - name: LinkedIn — IT y Funcional Lima
+    query: "site:linkedin.com/jobs \"Analista TI\" OR \"Analista Funcional\" OR \"Soporte TI\" Lima Perú junior OR asistente"
+    enabled: true
+
+  - name: LinkedIn — Admin y Coordinación Lima
+    query: "site:linkedin.com/jobs \"Coordinador Administrativo\" OR \"Asistente Administrativo\" OR \"Analista Administrativo\" Lima Perú tecnología OR sistemas"
+    enabled: true
+
+  - name: LinkedIn — Operaciones Lima
+    query: "site:linkedin.com/jobs \"Analista de Operaciones\" OR \"Operations Analyst\" OR \"Asistente de Operaciones\" Lima Perú junior"
+    enabled: true
+
+  - name: LinkedIn — Comercial y Financiero Lima
+    query: "site:linkedin.com/jobs \"Analista Comercial\" OR \"Asistente Comercial\" OR \"Analista Financiero\" Lima Perú Excel OR datos"
+    enabled: true
+
+  - name: LinkedIn — Analista de Proyectos Lima
+    query: "site:linkedin.com/jobs \"Analista de Proyectos\" OR \"PMO\" OR \"Asistente de Proyectos\" Lima Perú junior"
+    enabled: true
+
+  - name: LinkedIn — Practicante y Trainee Lima
+    query: "site:linkedin.com/jobs \"Practicante\" OR \"Trainee\" OR \"Auxiliar\" datos OR sistemas OR tecnología OR BI Lima Perú"
+    enabled: true
+
+  - name: LinkedIn — Recién Egresado Lima
+    query: "site:linkedin.com/jobs \"recién egresado\" OR \"recien egresado\" OR \"entry level\" analista OR datos OR sistemas Lima Perú"
+    enabled: true
+
+  - name: LinkedIn — Analista de Procesos Lima
+    query: "site:linkedin.com/jobs \"Analista de Procesos\" OR \"Process Analyst\" OR \"Analista de Calidad\" Lima Perú junior"
+    enabled: true
+
+  # ── Bumeran ───────────────────────────────────────────────────────────────
+  - name: Bumeran — Analista de Datos y BI
+    query: "site:bumeran.com.pe \"Analista de Datos\" OR \"Data Analyst\" OR \"Business Intelligence\" Lima"
+    enabled: true
+
+  - name: Bumeran — Analista de Sistemas y TI
+    query: "site:bumeran.com.pe \"Analista de Sistemas\" OR \"Analista TI\" OR \"Analista Funcional\" Lima"
+    enabled: true
+
+  - name: Bumeran — Admin y Operaciones
+    query: "site:bumeran.com.pe \"Analista Administrativo\" OR \"Asistente Administrativo\" OR \"Coordinador Administrativo\" Lima"
+    enabled: true
+
+  - name: Bumeran — Practicante y Junior
+    query: "site:bumeran.com.pe \"Practicante\" OR \"Junior\" OR \"Trainee\" datos OR sistemas OR analista Lima"
+    enabled: true
+
+  - name: Bumeran — Comercial y Financiero
+    query: "site:bumeran.com.pe \"Analista Comercial\" OR \"Analista Financiero\" OR \"Asistente Comercial\" Lima junior"
+    enabled: true
+
+  # ── Computrabajo ──────────────────────────────────────────────────────────
+  - name: Computrabajo — Analista de Datos y BI
+    query: "site:pe.computrabajo.com \"Analista de Datos\" OR \"Business Intelligence\" OR \"Analista BI\" Lima"
+    enabled: true
+
+  - name: Computrabajo — Analista de Sistemas
+    query: "site:pe.computrabajo.com \"Analista de Sistemas\" OR \"Analista Funcional\" OR \"Analista Programador\" Lima"
+    enabled: true
+
+  - name: Computrabajo — Admin y Operaciones
+    query: "site:pe.computrabajo.com \"Analista Administrativo\" OR \"Asistente Administrativo\" OR \"Analista Comercial\" Lima"
+    enabled: true
+
+  - name: Computrabajo — Practicante y Junior
+    query: "site:pe.computrabajo.com \"Practicante\" OR \"Junior\" OR \"Auxiliar\" datos OR sistemas OR tecnología Lima"
+    enabled: true
+
+  - name: Computrabajo — Financiero y Proyectos
+    query: "site:pe.computrabajo.com \"Analista Financiero\" OR \"Analista de Proyectos\" OR \"PMO\" Lima junior"
+    enabled: true
+
+  # ── Indeed Perú ───────────────────────────────────────────────────────────
+  - name: Indeed — Analista de Datos Lima
+    query: "site:pe.indeed.com \"Analista de Datos\" OR \"Data Analyst\" OR \"Business Analyst\" Lima"
+    enabled: true
+
+  - name: Indeed — Analista de Sistemas y TI
+    query: "site:pe.indeed.com \"Analista de Sistemas\" OR \"Analista TI\" OR \"Analista Funcional\" Lima junior"
+    enabled: true
+
+  - name: Indeed — Admin y Operaciones Lima
+    query: "site:pe.indeed.com \"Asistente Administrativo\" OR \"Analista Administrativo\" OR \"Analista de Operaciones\" Lima"
+    enabled: true
+
+  - name: Indeed — Practicante Lima
+    query: "site:pe.indeed.com \"Practicante\" OR \"Trainee\" OR \"Junior\" datos OR sistemas OR BI Lima"
+    enabled: true
+
+  # ── APTitus (portal líder en Perú) ────────────────────────────────────────
+  - name: APTitus — Analista Lima
+    query: "site:aptitus.com \"Analista de Datos\" OR \"Business Analyst\" OR \"Analista de Sistemas\" Lima junior"
+    enabled: true
+
+  - name: APTitus — Admin y Operaciones Lima
+    query: "site:aptitus.com \"Asistente Administrativo\" OR \"Analista Administrativo\" OR \"Coordinador\" Lima datos OR tecnología"
+    enabled: true
+
+  - name: APTitus — Practicante Lima
+    query: "site:aptitus.com \"Practicante\" OR \"Trainee\" datos OR sistemas OR BI OR tecnología Lima"
+    enabled: true
+
+  # ── Multitrabajos / Laborum ───────────────────────────────────────────────
+  - name: Multitrabajos — Analista Lima
+    query: "site:multitrabajos.com \"Analista de Datos\" OR \"Business Analyst\" OR \"Analista de Sistemas\" Lima"
+    enabled: true
+
+  - name: Laborum — Analista Lima
+    query: "site:laborum.pe \"Analista de Datos\" OR \"Business Analyst\" OR \"Analista TI\" Lima junior"
+    enabled: true
+
+tracked_companies:
+
+  # ── Banca & Finanzas ──────────────────────────────────────────────────────
+  - name: BCP (Banco de Crédito del Perú)
+    careers_url: https://www.viabcp.com/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"BCP" OR "Banco de Credito" "analista" OR "asistente" OR "practicante" datos OR sistemas OR operaciones site:linkedin.com/jobs Lima'
+    notes: "Banco líder en Perú. Gran área de datos y tecnología."
+    enabled: true
+
+  - name: Interbank
+    careers_url: https://interbank.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Interbank" "analista" OR "asistente" OR "practicante" datos OR sistemas OR operaciones site:linkedin.com/jobs Lima'
+    notes: "Banco tech-forward. Fuerte en analytics."
+    enabled: true
+
+  - name: BBVA Perú
+    careers_url: https://www.bbva.pe/general/trabaja-con-nosotros.html
+    scan_method: websearch
+    scan_query: '"BBVA Peru" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Scotiabank Perú
+    careers_url: https://www.scotiabank.com.pe/personas/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Scotiabank Peru" "analista" OR "asistente" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Credicorp
+    careers_url: https://www.credicorp.pe/es/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Credicorp" "analista" OR "asistente" OR "practicante" datos OR tecnología site:linkedin.com/jobs Lima'
+    notes: "Holding financiero peruano. Múltiples subsidiarias."
+    enabled: true
+
+  - name: Mibanco
+    careers_url: https://mibanco.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Mibanco" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    notes: "Banco de microfinanzas del Grupo Credicorp."
+    enabled: true
+
+  - name: BanBif
+    careers_url: https://www.banbif.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"BanBif" "analista" OR "asistente" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  # ── Telecomunicaciones ────────────────────────────────────────────────────
+  - name: Movistar Perú (Telefónica)
+    careers_url: https://www.movistar.com.pe/atencion-al-cliente/empleo
+    scan_method: websearch
+    scan_query: '"Movistar Peru" OR "Telefonica Peru" "analista" OR "asistente" datos OR sistemas OR BI site:linkedin.com/jobs Lima'
+    notes: "Gran empleador. Fuerte en datos y tecnología."
+    enabled: true
+
+  - name: Claro Perú
+    careers_url: https://www.claro.com.pe/institucional/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Claro Peru" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Entel Perú
+    careers_url: https://www.entel.pe/institucional/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Entel Peru" "analista" OR "asistente" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  # ── Retail & Consumo masivo ───────────────────────────────────────────────
+  - name: Falabella Perú
+    careers_url: https://careers.falabella.com
+    scan_method: websearch
+    scan_query: '"Falabella Peru" "analista" OR "asistente" OR "practicante" datos OR BI OR operaciones site:linkedin.com/jobs Lima'
+    notes: "Retail + fintech + e-commerce. Gran área de datos."
+    enabled: true
+
+  - name: Ripley Perú
+    careers_url: https://www.ripley.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Ripley Peru" "analista" OR "asistente" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Saga Falabella
+    careers_url: https://careers.falabella.com
+    scan_method: websearch
+    scan_query: '"Saga Falabella" "analista" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Alicorp
+    careers_url: https://alicorp.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Alicorp" "analista" OR "asistente" OR "practicante" datos OR sistemas OR procesos site:linkedin.com/jobs Lima'
+    notes: "Multinacional peruana de consumo masivo. Gran empleador."
+    enabled: true
+
+  - name: Gloria (Grupo Gloria)
+    careers_url: https://www.grupogloria.com/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Gloria" OR "Grupo Gloria" "analista" OR "asistente" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Backus (AB InBev)
+    careers_url: https://www.backus.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Backus" OR "AB InBev Peru" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Procter & Gamble Perú
+    careers_url: https://www.pgcareers.com
+    scan_method: websearch
+    scan_query: '"P&G Peru" OR "Procter Gamble Peru" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Nestlé Perú
+    careers_url: https://www.nestle.com.pe/careers
+    scan_method: websearch
+    scan_query: '"Nestle Peru" "analista" OR "asistente" OR "trainee" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Belcorp
+    careers_url: https://www.belcorp.biz/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Belcorp" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    notes: "Multinacional peruana de belleza. Fuerte en analytics."
+    enabled: true
+
+  # ── Consultoría & Tecnología ──────────────────────────────────────────────
+  - name: Deloitte Perú
+    careers_url: https://www2.deloitte.com/pe/es/careers.html
+    scan_method: websearch
+    scan_query: '"Deloitte Peru" "analista" OR "consultor junior" OR "asistente" OR "practicante" site:linkedin.com/jobs Lima'
+    notes: "Big4. Consultoría + datos + tecnología."
+    enabled: true
+
+  - name: EY Perú
+    careers_url: https://www.ey.com/es_pe/careers
+    scan_method: websearch
+    scan_query: '"EY Peru" OR "Ernst Young Peru" "analista" OR "asistente" OR "junior" datos OR sistemas site:linkedin.com/jobs Lima'
+    notes: "Big4. Advisory + data analytics."
+    enabled: true
+
+  - name: PwC Perú
+    careers_url: https://www.pwc.pe/es/careers.html
+    scan_method: websearch
+    scan_query: '"PwC Peru" OR "PricewaterhouseCoopers Peru" "analista" OR "asistente" OR "junior" site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: KPMG Perú
+    careers_url: https://home.kpmg/pe/es/home/careers.html
+    scan_method: websearch
+    scan_query: '"KPMG Peru" "analista" OR "asistente" OR "junior" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Accenture Perú
+    careers_url: https://www.accenture.com/pe-es/careers
+    scan_method: websearch
+    scan_query: '"Accenture Peru" "analista" OR "asistente" OR "junior" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Indra / Minsait Perú
+    careers_url: https://www.indracompany.com/es/trabaja-indra
+    scan_method: websearch
+    scan_query: '"Indra Peru" OR "Minsait Peru" "analista" OR "junior" OR "sistemas" site:linkedin.com/jobs Lima'
+    notes: "Consultoría TI líder en LATAM."
+    enabled: true
+
+  - name: NTT DATA / Everis Perú
+    careers_url: https://www.nttdata.com/global/en/careers
+    scan_method: websearch
+    scan_query: '"NTT DATA Peru" OR "Everis Peru" "analista" OR "junior" site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: IBM Perú
+    careers_url: https://www.ibm.com/es-es/employment
+    scan_method: websearch
+    scan_query: '"IBM Peru" "analista" OR "junior" OR "datos" site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Softtek Perú
+    careers_url: https://www.softtek.com/es/careers
+    scan_method: websearch
+    scan_query: '"Softtek Peru" "analista" OR "junior" OR "sistemas" site:linkedin.com/jobs Lima'
+    enabled: true
+
+  # ── Staffing & Headhunters (colocan muchos juniors) ───────────────────────
+  - name: Manpower Perú
+    careers_url: https://www.manpower.com.pe
+    scan_method: websearch
+    scan_query: '"Manpower Peru" "analista" OR "asistente" OR "junior" datos OR sistemas OR BI site:linkedin.com/jobs Lima'
+    notes: "Gran volumen de posiciones entry-level."
+    enabled: true
+
+  - name: Adecco Perú
+    careers_url: https://www.adecco.com.pe
+    scan_method: websearch
+    scan_query: '"Adecco Peru" "analista" OR "asistente" OR "junior" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Hays Perú
+    careers_url: https://www.hays.com.pe
+    scan_method: websearch
+    scan_query: '"Hays Peru" "analista" OR "junior" datos OR sistemas OR BI site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Michael Page Perú
+    careers_url: https://www.michaelpage.com.pe
+    scan_method: websearch
+    scan_query: '"Michael Page Peru" "analista" OR "junior" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  # ── Seguros ───────────────────────────────────────────────────────────────
+  - name: Rimac Seguros
+    careers_url: https://www.rimac.com/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Rimac" "analista" OR "asistente" OR "practicante" datos OR sistemas OR BI site:linkedin.com/jobs Lima'
+    notes: "Aseguradora líder en Perú. Fuerte en datos."
+    enabled: true
+
+  - name: Pacífico Seguros
+    careers_url: https://www.pacifico.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Pacifico Seguros" "analista" OR "asistente" OR "practicante" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  # ── E-commerce & Fintech ──────────────────────────────────────────────────
+  - name: Yape (BCP)
+    careers_url: https://www.yape.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Yape" "analista" OR "asistente" datos OR operaciones site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Culqi (Credicorp)
+    careers_url: https://www.culqi.com/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Culqi" "analista" OR "asistente" datos OR operaciones site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Mercado Libre Perú
+    careers_url: https://jobs.mercadolibre.com
+    scan_method: websearch
+    scan_query: '"Mercado Libre Peru" "analista" OR "asistente" OR "junior" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Linio Perú
+    careers_url: https://linio.com.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Linio Peru" "analista" OR "asistente" datos OR operaciones site:linkedin.com/jobs Lima'
+    enabled: true
+
+  # ── Minería & Energía (grandes empleadores en Perú) ──────────────────────
+  - name: Buenaventura
+    careers_url: https://www.buenaventura.com/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Buenaventura" "analista" OR "asistente" datos OR sistemas OR procesos site:linkedin.com/jobs Lima'
+    notes: "Minera peruana. Gran área de sistemas y datos."
+    enabled: true
+
+  - name: Southern Copper
+    careers_url: https://www.southernperu.com/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Southern Copper" OR "Southern Peru" "analista" OR "asistente" sistemas OR datos site:linkedin.com/jobs Lima'
+    enabled: true
+
+  - name: Engie Perú
+    careers_url: https://www.engie.pe/trabaja-con-nosotros
+    scan_method: websearch
+    scan_query: '"Engie Peru" "analista" OR "asistente" datos OR sistemas site:linkedin.com/jobs Lima'
+    enabled: true

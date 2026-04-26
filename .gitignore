@@ -1,43 +1,51 @@
-# Personal data (user fills these)
-cv.md
-data/applications.md
-data/pipeline.md
-data/scan-history.tsv
-reports/*.md
-!reports/.gitkeep
-output/*
-!output/.gitkeep
+# ============================================================
+# .gitignore — Repositorio personal de Daniela Ciñera
+# ============================================================
+# Este repo es el sistema PERSONAL de Daniela, no un template
+# público. Por eso INCLUYE su CV, perfil, tracker y reportes.
+#
+# ⚠️  Si publicás en GitHub, hacelo como repo PRIVADO.
+#     Contiene email, teléfono, historial de aplicaciones.
+# ============================================================
+
+# Secrets — NUNCA commitear
+.env
+.env.local
+
+# Update system internals (regenerables)
+.update-dismissed
+.update-lock
+
+# Batch logs y estado intermedio
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
 batch/batch-input.tsv
-batch/tracker-additions/**/*.tsv
-!batch/tracker-additions/.gitkeep
+
+# JDs descargados crudos
 jds/*
 !jds/.gitkeep
 
-# User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
-.update-dismissed
-.update-lock
-
-# Secrets (never commit — use .env.example as template)
-.env
-
-# Generated
-.resolved-prompt-*
+# Node / dependencias
 node_modules/
+package-lock.json
 bun.lock
 
-# OS
+# OS / editor
 .DS_Store
+Thumbs.db
 *.mov
 *.mp4
 
-# Claude Code local
-.claude/settings.local.json
+# Generated / temporal
+.resolved-prompt-*
+*.zip
+*.tmp
+*.bak
+output/*.html
+new-urls.txt
+daniela-urls.txt
+
+# Claude Code local (settings personales del que abre el proyecto)
 .claude/memory/
 career-dashboard
-package-lock.json

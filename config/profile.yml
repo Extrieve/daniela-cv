@@ -1,0 +1,73 @@
+# Career-Ops Profile — Daniela Isabel Ciñera Pardo
+
+candidate:
+  full_name: "Daniela Isabel Ciñera Pardo"
+  email: "daniela.cinera@gmail.com"
+  phone: "(+51) 908633448"
+  location: "Lima, Perú"
+  linkedin: "linkedin.com/in/daniela-cinera-3344a9279"
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Analista de Datos"
+    - "Business Analyst"
+    - "Analista de Sistemas"
+    - "Junior Data Analyst"
+  archetypes:
+    - name: "Analista de Datos / Data Analyst"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Business Analyst / Analista de Negocio"
+      level: "Junior"
+      fit: "primary"
+    - name: "Analista de Sistemas / Systems Analyst"
+      level: "Junior"
+      fit: "primary"
+    - name: "Desarrolladora Junior / Junior Developer"
+      level: "Junior"
+      fit: "secondary"
+    - name: "Business Intelligence Analyst"
+      level: "Junior"
+      fit: "secondary"
+
+narrative:
+  headline: "Coordinadora Tecnológica | Business Analytics & IS (USF, GPA 3.93) | SQL · Tableau · C# | Lima"
+  exit_story: >
+    Profesional con ~2 años de experiencia como Coordinadora Administrativa y Tecnológica
+    en la Oficina de Informática y Tecnologías de Smart Perú International, combinando
+    trabajo profesional con su formación universitaria en EE.UU. (GPA 3.93/4.0, Dean's
+    List). Sólida base técnica en SQL, MySQL, Tableau, C# y análisis de datos.
+    Trilingüe Español/Inglés/Portugués. Busca rol analítico o técnico de mayor alcance en
+    Lima donde aplicar su experiencia y formación internacional.
+  superpowers:
+    - "Coordinación tecnológica y soporte de sistemas en entorno profesional real (1.5 años)"
+    - "Diseño y administración de bases de datos relacionales (MySQL, SQL)"
+    - "Visualización de datos y dashboards (Tableau, Excel avanzado)"
+    - "Trilingüe: Español (nativo), Inglés (bilingüe), Portugués (B1)"
+    - "Autonomía y gestión remota: operó profesionalmente mientras estudiaba en el extranjero"
+  proof_points:
+    - name: "Proyecto Hospital DB"
+      url: ""
+      hero_metric: "ERD con 20+ atributos, 15+ tablas MySQL, 40+ queries SQL"
+    - name: "Hopkins Film School Software"
+      url: ""
+      hero_metric: "Sistema C# con 100% tasa de éxito en pruebas funcionales"
+    - name: "KAT Manufacturing"
+      url: ""
+      hero_metric: "150+ registros auditados, 10+ visualizaciones en Tableau"
+
+compensation:
+  target_range: "S/. 2,500 – S/. 4,000"
+  currency: "PEN"
+  minimum: "S/. 2,000"
+  location_flexibility: "Lima presencial o híbrido. Abierta a remoto con empresas internacionales."
+
+location:
+  country: "Perú"
+  city: "Lima"
+  timezone: "PET (UTC-5)"
+  visa_status: "Ciudadana peruana, no requiere visa"
+  open_to_relocation: false
